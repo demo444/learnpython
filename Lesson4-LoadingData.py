@@ -10,7 +10,7 @@ cov = pd.read_csv(url, sep=',')
 # print the first 3 rows
 print(cov.head(3))
 
-# print some statistics about the data read into 'cov'
+# print a line between output for readability
 print('-----')
 
 # convert date column from strings to actual date data types
@@ -19,6 +19,7 @@ cov["date"] = pd.to_datetime(cov["date"])
 # delete unnecessary column
 cov.drop(columns="fips", inplace=True)
 
+# print some statistics about the data read into 'cov'
 print(cov.info())
 print(cov.describe())
 
@@ -39,4 +40,3 @@ plt.ylabel('Number of People')
 
 # save the plot to a file
 plt.savefig('graph.png')
-
