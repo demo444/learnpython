@@ -3,6 +3,5 @@ matplotlib
 seaborn
 pandas
 datetime
-dateutil
 scipy
 statsmodels
