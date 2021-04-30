@@ -1,6 +1,10 @@
 # learnpython
 Code examples and data files for learning python
 
+If you are new to Python, complete the lessons in order, starting with Lesson 1.
+
+If you are an intermediate user or already familiar with Python, you may wish to complete the questions in Challenge.txt BEFORE looking at the lessons.  If you get stuck or wish to validate your answers, you can refer to the Lessons for the solution.
+
 You can get your own personal pre-loaded, functional Jupyter Notebook with these examples at:
 https://gesis.mybinder.org/binder/v2/gh/demo444/learnpython/master
 
