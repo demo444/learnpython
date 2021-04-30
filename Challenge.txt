@@ -1,0 +1,30 @@
+Challenge: Answer these questions:
+ 
+Lesson 4:
+
+Print the first 3 rows of the CSV file at https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv
+
+How many unique values are there for the 'state' column?
+
+Which state appears the most frequently?
+
+List each state in alphabetical order.
+
+Plot the number of cases and number of deaths in Dallas, Texas over time, all on one graph, using matplotlib.
+
+
+Lesson 5:
+
+Open the file at https://raw.githubusercontent.com/demo444/learnpython/master/sample.txt
+
+This file contains a description of financial transactions by several individuals.  Using Python only (without manually editing the file), create a two-dimensional array that has a row for each transaction, and columns that include:
+
+date (in the form YYYY-MM-DD)
+time (in 24 hour format HH:MM:SS)
+amount (number of dollars)
+paid (which will have the value 'paid' if money was paid and 'received' if it was received)
+person (the person's name)
+
+Convert the array to a data frame and sort the rows chronologically, in order of occurrence.
+
+Export the result to a CSV file. 
